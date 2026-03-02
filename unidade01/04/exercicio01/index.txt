@@ -1,0 +1,30 @@
+Trabalhando com tags em HTML.
+
+Tag parágrafo (p), tag linha horizontal (hr) e tag quebra de linha (br)
+
+Usando a tag de (p), podemos criar blocos de texto separados, facilitando a leitura e organização do
+conteúdo. 
+A tag de parágrafo é uma das mais básicas e fundamentais em HTML, sendo amplamente utilizada para criar conteúdo
+textual em páginas web.
+    
+Além disso, a tag de parágrafo é essencial para estruturar o texto de forma clara e legível, permitindo que os
+leitores compreendam melhor as informações apresentadas.
+Em resumo, a tag de parágrafo é uma ferramenta essencial para organizar e estruturar o conteúdo textual em HTML,
+proporcionando uma melhor experiência de leitura para os usuários.
+    
+    
+Além disso, a tag de parágrafo é essencial para estruturar o texto de forma clara e legível, permitindo que os
+leitores compreendam melhor as informações apresentadas.
+Em resumo, a tag de parágrafo é uma ferramenta essencial para organizar e estruturar o conteúdo textual em HTML,
+proporcionando uma melhor experiência de leitura para os usuários.
+    
+A tag (hr) é usada para criar uma linha horizontal que separa seções de conteúdo em uma página HTML. 
+A tag (br) para criar quebras de linha dentro de um parágrafo, permitindo que o texto seja exibido
+em múltiplas linhas sem a necessidade de criar novos parágrafos.  Pode ser utilizado dentro e fora de
+parágrafos, dependendo da necessidade de formatação do texto.  É importante lembrar que a tag br é uma tag
+de auto-fechamento, ou seja, não requer uma tag de fechamento.
+    
+Em resumo, a tag br é uma ferramenta útil para criar quebras de linha dentro de um parágrafo, permitindo
+uma formatação mais flexível do texto em HTML. No entanto, é importante usá-la com moderação para garantir
+uma boa legibilidade do conteúdo.
+    

@@ -1,0 +1,31 @@
+Elementos textuais
+
+Negrito
+
+Itálico
+
+Sublinhado
+
+Ênfase
+
+Importante
+
+Utilizando os elementos
+
+Lembrando que podemos usar a tag de quebra de linha dentro e fora de parágrafos.
+
+Criando um parágrafo que será formatado utilizando novas tags HTML. 
+A primeira é a tag de Negrito.
+A segunda é a tag Itálico.
+A terceira é o sublinhado.
+
+Também podemos utilizar duas ou mais tags juntas.
+Exemplo usando Negrito e itálico. 
+Outro exemplo usando Negrito e sublinhado.
+
+Também temos as tags que reforçam a semâtica do texto.
+São bastante parecidas com as tags de negrito e itálico. 
+São elas as de enfatizar e strong.
+A diferença é que elas são utilizadas para acessibilidade com leitores
+de tela que auxiliam quem tem alguma dificuldade 
+com a leitura dos textos e computadores.

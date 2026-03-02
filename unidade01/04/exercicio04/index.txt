@@ -1,0 +1,19 @@
+Mais formatações
+    
+Se precisarmos de um texto com marcação podemos usar a tag Mark.
+    
+Podemos também ter um texto diminuído usando a tag small.
+    
+Agora, quando precisarmos de formatação mais detalhada, podemos ter: 
+
+Texto deletado ou taxado. 
+
+Texto inserido ou sublinhado.
+    
+Ou podemos ter textos específicos chamados de subscritos e sobrescritos. 
+Abaixo os exemplos mais comuns: 
+
+Subscrito H2O. 
+
+Sobrescrito O2.
+    
