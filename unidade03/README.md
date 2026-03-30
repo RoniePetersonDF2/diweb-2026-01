@@ -3,5 +3,5 @@
 ## Descrição
 ### CSS Intermediário e novas tags HTML.
 ### Aulas
-* [20 - Contrato didático.](./20)
+* [20 - Aula 20.](./20)
 
