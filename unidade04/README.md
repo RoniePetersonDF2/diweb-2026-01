@@ -3,5 +3,5 @@
 ## Descrição
 ### Layout responsivo e técnicas aplicadas ao CSS.
 ### Aulas
-* [30 - Contrato didático.](./30)
+* [30 - Aula 30.](./30)
 
