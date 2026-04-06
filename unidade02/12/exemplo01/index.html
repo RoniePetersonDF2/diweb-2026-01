@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Aula 12 - Exemplo 01</title>
     <style>
         * {
@@ -12,27 +11,28 @@
             box-sizing: border-box;
         }
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 20px;
             background-color: gray;
+            font-family: cursive, sans-serif;
         }
-        .main {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
+        h1 {
+            margin-bottom: 20px;
         }
+        form {
+           background-color: white;
+           margin: 10px;
+           padding: 20px;
+           border-radius: 10px;
+        }        
     </style>
 </head>
 <body>
-    <div class="main">
-        <h1>
-            Trabalhando com as tags e controles de formulário
-        </h1>
-        <form action="">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome">
-            <input type="submit" value="Enviar">
-        </form>
-    </div>
+    
+    <form>
+        <h1>Trabalhando com formulários</h1>
+        <label for="nome">Nome</label> 
+        <input type="text" name="nome" id="nome"
+        required size="30">
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>

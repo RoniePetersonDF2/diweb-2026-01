@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Aula 12 - Exercício 02</title>
+    <title>Aula 12 - Exercicio 02</title>
     <style>
         * {
             margin: 0;
@@ -12,43 +11,44 @@
             box-sizing: border-box;
         }
         body {
-            font-family:'Courier New', Courier, monospace;
-            padding: 20px;
             background-color: gray;
-        }
-        .main {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
+            font-family: monospace, sans-serif;
         }
         h1 {
             margin-bottom: 20px;
         }
-        label {
-            font-weight: bold;
-            margin-top: 10px;
-        }
+        form {
+           background-color: white;
+           margin: 10px;
+           padding: 20px;
+           border-radius: 10px;
+        }  
         input {
-            margin: 5px 0;
-            padding: 5px 3px;
+            padding: 5px 0px;
         }
+        .button {
+            padding: 5px 10px;
+            background-color: coral;
+            color: white;
+            font-weight: 600;
+            border: none;
+        }      
     </style>
 </head>
-<body>
-    <div class="main">
-        <h1>
-            Trabalhando com as tags e controles de formulário
-        </h1>
-        <form action="">
-            <label for="matricula">Matrícula</label> <br>
-            <input type="text" id="matricula" name="matricula" placeholder="Informe sua matrícula" autofocus> <br>
-            <label for="nome">Nome</label> <br>
-            <input type="text" id="nome" name="nome" placeholder="Informe seu nome"size="100"> <br>
-            <label for="email">E-mail</label><br>
-            <input type="text" id="email" name="email" placeholder="Informe seu e-mail" size="100"> <br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </form>
-    </div>
+<body>    
+    <form>
+        <h1>Trabalhando com formulários</h1>
+        <label for="matricula">Matrícula</label>  <br>
+        <input type="text" name="matricula" id="matricula"
+        required size="15" placeholder="Informe sua matrícula." autofocus> <br>
+        <label for="nome">Nome</label>  <br>
+        <input type="text" name="nome" id="nome"
+        required size="50" placeholder="Informe seu nome."> <br>
+        <label for="email">E-mail</label>  <br>
+        <input type="text" name="email" id="email"
+        required size="50" placeholder="Informe seu e-mail."> <br> <br>
+        <input type="submit" value="Enviar" class="button">
+        <input type="reset" value="Limpar" class="button">
+    </form>
 </body>
 </html>

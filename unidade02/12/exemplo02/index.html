@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Aula 12 - Exemplo 02</title>
     <style>
         * {
@@ -12,31 +11,37 @@
             box-sizing: border-box;
         }
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 20px;
             background-color: gray;
+            font-family: cursive, sans-serif;
         }
-        .main {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
+        h1 {
+            margin-bottom: 20px;
         }
+        form {
+           background-color: white;
+           margin: 10px;
+           padding: 20px;
+           border-radius: 10px;
+        } 
         input {
-            padding: 5px 20px;
+            padding: 5px 0px;
+            margin-bottom: 10px;
         }
+        .button {
+            padding: 5px 10px;
+            font-weight: 600;
+        }           
     </style>
 </head>
 <body>
-    <div class="main">
-        <h1>
-            Trabalhando com as tags e controles de formulário
-        </h1>
-        <form action="">
-            <label for="nome">Nome</label> <br><br>
-            <input type="text" id="nome" name="nome" placeholder="Informe seu nome" autofocus size="100"> <br> <br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </form>
-    </div>
+    
+    <form>
+        <h1>Trabalhando com formulários</h1>
+        <label for="nome">Nome</label> <br>
+        <input type="text" name="nome" id="nome"
+        required size="50"> <br>
+        <input type="submit" value="Enviar" class="button">
+        <input type="reset" value="Limpar" class="button">
+    </form>
 </body>
 </html>
