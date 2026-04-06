@@ -3,11 +3,10 @@
 ## Descrição
 ### HTML Avançado e Fundamentos de CSS. 
 ### Aulas
-* [11 - Aula 11.](./11)
-* [12 - Aula 12.](./12)
-* [14 - Aula 14.](./14)
-* [14 - Aula 14.](./14)
-* [15 - Aula 15.](./15)
-* [16 - Aula 16.](./16)
-* [17 - Aula 17.](./17)
-* [18 - Aula 18.](./18)
+* [11 - Continuando com o modelo box-model (propriedades margin e padding) .](./11)
+* [12 - Iniciando com formulários. Tags label e input](./12)
+* [14 - Outros tags de formulário. Novos tipos de input, tag select e textarea](./14)
+* [15 - Não disponibilizado.](./15)
+* [16 - Não disponibilizado.](./16)
+* [17 - Não disponibilizado.](./17)
+* [18 - Não disponibilizado.](./18)
