@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 15 - Exercício 02</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: gray;
+            font-family: monospace, sans-serif;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        form {
+           background-color: white;
+           margin: 50px auto;
+           padding: 20px;
+           border-radius: 10px;
+           width: 800px;
+        }
+        label {
+            font-weight: 600;
+        }  
+        input {
+            margin: 5px 0px;
+            padding: 5px;
+            border: 1px solid coral;
+            color: coral;
+        }
+        .button {
+            padding: 10px 10px;
+            background-color: coral;
+            color: white;
+            font-weight: 600;
+            border: none;
+        }              
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Novos tipos de input</h1>
+        <label for="numero">Número</label>
+        <input type="number" name="numero" id="numero" 
+            min="1" max="10" value="1"  autofocus>
+        <br>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone"  
+            placeholder="(61) 9.99999-9999">
+        <hr>
+        <label for="data">Data de nascimento</label>
+        <input type="date" name="data" id="data"  
+            value="2026-04-04" min="2026-04-01">
+        <br>
+        <label for="hora">Hora início</label>
+        <input type="time" name="hora" id="hora">
+        <br>
+        <label for="datahora">Data e hora</label>
+        <input type="datetime-local" name="datahora" id="datahora">
+        <hr>
+        <label for="cor">Cor</label>
+        <input type="color" name="cor" id="cor">
+        <hr>
+        <label for="semana">Semana</label>
+        <input type="week" name="semana" id="semana">
+        <br>
+        <label for="mes">Mês</label>
+        <input type="month" name="mes" id="mes">
+        <hr>
+        <label for="search">Busca</label>
+        <input type="search" name="search" id="search">
+        <br>
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url">
+        <hr>
+        <label for="ranger">Range</label>
+        <input type="range" name="ranger" id="ranger" min="0" max="100" value="50">
+        <hr>
+        <input type="submit" value="Enviar" class="button">
+        <input type="reset" value="Limpar" class="button">
+    </form>
+</body>
+</html>
