@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 14 - Exercício 01</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: gray;
+            font-family: monospace, sans-serif;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        form {
+           background-color: white;
+           margin: 50px auto;
+           padding: 20px;
+           border-radius: 10px;
+           width: 800px;
+        }  
+        input {
+            margin: 5px 0px;
+            padding: 5px;
+            border: 1px solid coral;
+            color: coral;
+        }
+        .button {
+            padding: 10px 10px;
+            background-color: coral;
+            color: white;
+            font-weight: 600;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Outros controles de formulários</h1>
+        <!-- input do tipo hidden. O atributo value define o valor do campo -->
+        <input type="hidden" name="acao" value="atualizar">
+        <input type="hidden" name="id" value="123">
+        <h2>Tipo Radio</h2>
+        <!-- O atributo 'name' deve ser o mesmo para o grupo -->
+        <input type="radio" id="vermelho" name="cor" value="vermelho">
+        <label for="vermelho">Vermelho</label><br>
+
+        <input type="radio" id="azul" name="cor" value="azul" checked>
+        <label for="azul">Azul (Padrão)</label><br>
+
+        <input type="radio" id="verde" name="cor" value="verde">
+        <label for="verde">Verde</label><br>
+        <hr>
+        <h2>Tipo Checkbox</h2>
+        <p>Selecione suas tecnologias favoritas:</p>
+        <!-- O atributo 'name' deve ser o mesmo para o grupo -->
+        <input type="checkbox" id="html" name="tecnologia" value="html">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="tecnologia" value="css" checked>
+        <label for="css">CSS (Pré-selecionado)</label><br>
+
+        <input type="checkbox" id="js" name="tecnologia" value="js">
+        <label for="js">JavaScript</label>
+        <hr>
+        <input type="submit" value="Enviar" class="button">
+        <input type="reset" value="Limpar" class="button">
+    </form>
+</body>
+</html>
