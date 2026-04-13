@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Aula 15 - Exercício 03</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: gray;
+            font-family: monospace, sans-serif;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        form {
+           background-color: white;
+           margin: 50px auto;
+           padding: 20px;
+           border-radius: 10px;
+           width: 620px;
+        }
+        label {
+            font-weight: 600;
+        }  
+        input, select {
+            margin: 5px 0px;
+            padding: 5px;
+            border: 1px solid coral;
+            color: coral;
+        }
+        .button {
+            padding: 10px 10px;
+            background-color: coral;
+            color: white;
+            font-weight: 600;
+            border: none;
+        }              
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" name="nome" id="nome" placeholder="Informe seu nome."
+            required size="80" >
+            <br>
+            <label for="email">E-mail</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Informe seu e-mail."
+            required size="80" >
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Endereço de entrega</legend>
+            <label for="endereco">Endereço</label>
+            <br>
+            <input type="text" name="endereco" id="endereco" placeholder="Informe seu endereço."
+            required  size="80">
+            <br>
+            <label for="bairro">Bairro</label>
+            <br>
+            <input type="text" name="bairro" id="bairro" placeholder="Informe seu bairro."
+            required  size="80">
+            <br>
+            <label for="cidade">Cidade</label>
+            <br>
+            <input type="text" name="cidade" id="cidade" placeholder="Informe seu cidade."
+            required  size="80">
+            <br>
+            <label for="uf">UF</label>
+            <br>
+            <select name="uf" id="uf">
+                <option value="DF">DF</option>
+                <option value="GO">GO</option>
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+            </select>
+            <br>
+            <label for="cep">Cep</label>
+            <br>
+            <input type="text" name="cep" id="cep" placeholder="Informe seu cep."
+            required  size="15" maxlength="10">            
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar" class="button">
+        <input type="reset" value="Limpar" class="button">
+    </form>
+</body>
+</html>
