@@ -8,5 +8,4 @@
 * [14 - Outras tags de formulário. Novos tipos de input, tag select e textarea.](./14)
 * [15 - Continuando com formularios. Tag input e seus novos tipos (email, number, date, time e outras).](./15)
 * [16 - CSS externo. Trabalhando com listas (ordenada, não ordenada e hierárquica) e seu atributo type.](./16)
-* [17 - Não disponibilizado.](./17)
-* [18 - Não disponibilizado.](./18)
+* [17 - Listas, Links (internos, externos e como imagem) e suas propriedades CSS. ](./17)
