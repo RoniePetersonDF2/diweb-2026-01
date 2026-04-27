@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: lightgray;
+}
+.main {
+    width: 80%;
+    height: 450px;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: white;
+}
+a {
+    color: tomato;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+a:hover {
+    color: crimson;
+    font-size: 25px;
+}
+a:active {
+    color: black;
+    font-size: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 3px solid transparent;
+}
+.btn-01 {
+    background-color: none;
+    color: cadetblue;
+    border-color: cadetblue;
+}
+
+.btn-01:hover {
+    background-color: cadetblue;
+    color: white;
+    font-size: 20px;
+}
+.btn-02 {
+    background-color: lightsalmon;
+    border: 3px solid transparent;
+    color: white
+}
+.btn-02:hover {
+    background-color: transparent;
+    border: 3px solid salmon;
+    color: salmon;
+    font-size: 20px;
+}
+.btn-03 {
+    border-radius: 50px;
+}
+.btn-04 {
+    background-color: goldenrod;
+    border: 3px solid golden;
+    color: white;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
