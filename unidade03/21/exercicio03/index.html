@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Aula 21 - Exercício 02</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Trabalhando com tabelas e seus atributos</h1>            
+        </section>
+        <section>
+            <h2>Tabela utilizando colspan</h2>
+            <table>
+                <thead class="linha">
+                    <tr>
+                        <th>#</th>
+                        <th>Produto</th>
+                        <th>Qtd</th>
+                        <th>Valor (R$)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Coca Cola 2L</td>
+                        <td>10</td>
+                        <td>R$ 11,50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Suco de laranja 1L</td>
+                        <td>8</td>
+                        <td>R$ 15,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2" class="linha">Total (qtd * valor):</td>
+                        <td>18</td>
+                        <td>R$ 235,00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Tabela utilizando rowspan</h2>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <td>Helena Machado</td>
+                </tr>
+                <tr>
+                    <th>Telefone</th>
+                    <td>xxx</td>
+                    <td>xxx</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
