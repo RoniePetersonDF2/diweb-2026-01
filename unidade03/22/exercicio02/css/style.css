@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    height: 15vh;
+    width: 100%;
+    background-color: #f5d3c0;
+    color: #b79460;
+    /*Muda o tipo de display para flex e altera as propriedades*/
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+header h2 {
+    font-size: 1.8rem;
+}
+header h2 span {
+    color: #ef7889;
+    font-weight: 700;
+}
+header nav ul li {
+    list-style-type: none;
+    display: inline-block; /*Muda o tipo de display para inline-block*/
+    padding: 0 1.25rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #b79460;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize; /*Deixa a primeira letra em maiúscula*/
+}
+header nav ul li a:hover {
+    border-bottom: 3px solid #ef7889;
+}
+header section a {
+    background-color: #ef7889;
+    color: #fff;
+    padding: 0.75rem 1.875rem;
+    border-radius: 25px;
+    border:none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+}   
+header section a:hover {
+    background-color: #fff;
+    color: #b79460;
+    border: 1px solid #ef7889;
+}
+.btn-login {
+    background-color: transparent;
+    color: #b79460;
+    border: 3px solid #ef7889;
+}

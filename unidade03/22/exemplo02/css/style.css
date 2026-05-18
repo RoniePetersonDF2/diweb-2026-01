@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 90vh;
+}
+p {
+    text-align: center;
+    font-weight: 700;
+    color: tomato;
+    font-size: 1.25rem;
+    margin: 0.625rem 0;
+}
+main section {
+    height: 8vh;
+    border: 3px solid black;
+    margin: 5px 20px;
+    display: flex;
+}
+main section div {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.box01 {
+    background-color: blueviolet;
+}
+.box02 {
+    background-color: cornflowerblue;
+}
+.box03 {
+    background-color: crimson;
+}
+.secao-02 {
+    flex-direction: row-reverse;
+}
+.secao-03 {
+    flex-direction: column;
+    height: 20vh;
+}
+.secao-04 {
+    flex-direction: column-reverse;
+    height: 20vh;
+}

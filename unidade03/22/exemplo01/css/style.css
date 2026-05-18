@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+}
+main section {
+    width: 100vw;
+    height: 10vh;
+    border: 2px solid black;
+}
+main section div {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.box01 {
+    background-color: blueviolet;
+}
+.box02 {
+    background-color: cornflowerblue;
+}
+.box03 {
+    background-color: crimson;
+}
