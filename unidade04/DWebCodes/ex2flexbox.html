@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Exemplo Flexbox</title>
+    <link rel='stylesheet' href='main.css'>
+    <style>
+       /* 1. O Container (O Pai) */
+.flex-container {
+  display: flex;            /* Ativa o Flexbox */
+  flex-direction: row;      /* Itens em linha (padrão) */
+  justify-content: center;  /* Centraliza horizontalmente */
+  align-items: stretch;     /* Faz todos terem a mesma altura */
+  gap: 20px;                /* Espaçamento entre os cards */
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* 2. Os Itens (Os Filhos) */
+.flex-item {
+  flex: 1;                  /* Faz os itens crescerem igualmente */
+  background-color: white;
+  padding: 15px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Responsividade Básica */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column; /* No celular, vira uma coluna automática */
+  }
+}
+</style>
+
+</head>
+<body>
+   <div class="flex-container">
+  <div class="flex-item">
+    <h3>Caixa 1</h3>
+    <p>Descrição1</p>
+  </div>
+  <div class="flex-item">
+    <h3>Caixa 2</h3>
+    <p>Descrição2</p>
+  </div>
+  <div class="flex-item">
+    <h3>Caixa 3</h3>
+    <p>Descrição3</p>
+  </div>
+</div>
+</body>
+</html>

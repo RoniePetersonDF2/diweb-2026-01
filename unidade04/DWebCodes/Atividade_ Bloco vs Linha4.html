@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)http://www.etcvirtual.se.df.gov.br/moodle4/pluginfile.php/71066/mod_resource/content/1/index.html?redirect=1 -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Atividade: Bloco vs Linha</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        /* Estilo comum para destacar as caixas */
+        .box {
+            border: 2px solid #333;
+            margin: 10px 0;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* ELEMENTOS BLOCK-LEVEL */
+        /* Ocupam toda a largura da linha e começam em nova linha */
+        .bloco {
+            background-color: #e74c3c; /* Vermelho */
+            display: block; 
+        }
+
+        /* ELEMENTOS INLINE-LEVEL */
+        /* Ocupam apenas o espaço do conteúdo e não aceitam largura/altura */
+        .linha {
+            background-color: #3498db; /* Azul */
+            display: inline;
+            padding: 5px; /* Padding funciona, mas pode "atropelar" outras linhas */
+        }
+
+        /* ELEMENTOS INLINE-BLOCK */
+        /* Ficam na mesma linha, mas aceitam largura e altura */
+        .linha_bloco {
+            background-color: #2ecc71; /* Verde */
+            display: inline-block;
+            width: 150px;
+            height: 50px;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+<meta id="dcngeagmmhegagicpcmpinaoklddcgon"></head>
+<body>
+
+    <h1 style="text-align: center;">Desvendando o Box Model</h1>
+
+    <section>
+        <h2>1. Block-level (Elementos de Bloco)</h2>
+        <p>Estes elementos sempre começam em uma nova linha e ocupam toda a largura disponível.</p>
+        <div class="box bloco">Div 1 (Block)</div>
+        <div class="box bloco">Div 2 (Block)</div>
+    </section>
+
+    <section>
+        <h2>2. Inline-level (Elementos em Linha)</h2>
+        <p>Eles ficam um ao lado do outro. <span class="box linha">Span 1 (Inline)</span> e <span class="box linha">Span 2 (Inline)</span> continuam na mesma linha do texto.</p>
+    </section>
+
+    <section>
+        <h2>3. Inline-Block (Elementos Híbridos)</h2>
+        <p>Eles ficam lado a lado, mas permitem definir largura e altura.</p>
+        <div class="box linha_bloco">Bloco A</div>
+        <div class="box linha_bloco">Bloco B</div>
+        <div class="box linha_bloco">Bloco C</div>
+    </section>
+
+
+</body></html>

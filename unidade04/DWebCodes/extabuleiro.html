@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabuleiro de Xadrez - Aula Grid e Flex</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ccc;
+        }
+
+        /* O GRID define o esqueleto do tabuleiro */
+        .tabuleiro {
+            display: grid;
+            grid-template-columns: repeat(8, 60px);
+            grid-template-rows: repeat(8, 60px);
+            border: 4px solid #333;
+        }
+
+        /* O FLEXBOX define como a peça se comporta dentro da casa */
+        .casa {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+
+        /* Classes de cores simples */
+        .bege { background-color: #f0d9b5; }
+        .marrom { background-color: #b58863; }
+    </style>
+</head>
+<body>
+
+    <div class="tabuleiro">
+
+
+        <!-- Linha 1 -->
+        <div class="casa bege"></div><div class="casa marrom">♞</div><div class="casa bege"></div><div class="casa marrom"></div>
+        <div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div>
+        
+        <!-- Linha 2 (Invertida) -->
+        <div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div>
+        <div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div>
+
+        <!-- Linha 3 -->
+        <div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div>
+        <div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div>
+
+        <!-- Linha 4 (Invertida) -->
+        <div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div>
+        <div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div>
+
+        <!-- Linha 5 -->
+        <div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div>
+        <div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div>
+
+        <!-- Linha 6 (Invertida) -->
+        <div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div>
+        <div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div>
+
+        <!-- Linha 7 -->
+        <div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div>
+        <div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div>
+
+        <!-- Linha 8 (Invertida) -->
+        <div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div>
+        <div class="casa marrom"></div><div class="casa bege"></div><div class="casa marrom"></div><div class="casa bege"></div>
+    </div>
+
+</body>
+</html>

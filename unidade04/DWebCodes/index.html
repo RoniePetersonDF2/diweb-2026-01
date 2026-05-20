@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+    <style>
+        /* 1. ESTILO PARA BOX-LEVEL (Elementos de Bloco)
+           Eles se comportam como "tijolos": um em cima do outro. */
+        .caixa-bloco {
+            background-color: #3498db; /* Azul */
+            color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 3px solid #2980b9;
+            /* Ocupa a largura total automaticamente */
+        }
+
+        /* 2. ESTILO PARA INLINE-LEVEL (Elementos de Linha)
+           Eles se comportam como "etiquetas": um ao lado do outro. */
+        .caixa-linha {
+            background-color: #f1c40f; /* Amarelo */
+            color: #333;
+            padding: 10px;
+            border: 2px solid #f39c12;
+            /* Ocupa apenas o espaço do texto */
+        }
+
+        /* Espaçamento para o corpo da página */
+        body {
+            font-family: sans-serif;
+            padding: 5px;
+            background-color: darkseagreen;   
+        }
+        h1, h2{text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>Atividade: Bloco vs Linha</h1>
+    <h2>Atividade: Bloco</h2>
+    <!-- Exemplo de Elementos BOX-LEVEL -->
+    <div class="caixa-bloco">Eu sou uma DIV (Bloco)</div>
+    <div class="caixa-bloco">Outra DIV (Bloco) - Note como eu pulei linha sozinho!</div>
+
+    <h2>Atividade: Linha</h2>
+
+    <!-- Exemplo de Elementos INLINE-LEVEL -->
+    <p>
+        Agora veja os SPANs:
+        <span class="caixa-linha">Etiqueta 1</span>
+        <span class="caixa-linha">Etiqueta 2</span>
+        <span class="caixa-linha">Etiqueta 3</span>
+    </p>    
+    <p>
+       Note como eles ficam <strong>lado a lado</strong> na mesma linha. 
+    </p>
+           
+
+</body>
+</html>
