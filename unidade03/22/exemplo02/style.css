@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    text-align: center;
+    color: deeppink;
+}
+.container-01 {
+    border: 1px solid;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+}
+.container-02 {
+    border: 1px solid;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-03 {
+    border: 1px solid;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+}
+.container-04 {
+    border: 1px solid;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+.roxo {
+    background-color: blueviolet;
+}
+.azul {
+    background-color: cornflowerblue;
+}
+.vermelho {
+    background-color: crimson;
+}
+.item {
+    height: 50px;
+    width: 50px;
+}
