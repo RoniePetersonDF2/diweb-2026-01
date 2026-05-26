@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    width: 60vw;
+    height: 50vh;
+    border: 2px solid black;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 150px;
+    height: 200px;
+}
+.box01 {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+.box02 {
+    background-color: cornflowerblue;
+    flex-grow: 2;
+}
+.box03 {
+    background-color: crimson;
+    flex-grow: 1;
+}
+.box04 {
+    background-color: darkcyan;
+    /* flex-grow: 1; */
+    flex-shrink: 3;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+}
+main section {
+    width: 60vw;
+    height: 50vh;
+    border: 2px solid black;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main section div {
+    width: 150px;
+    height: 200px;
+}
+.box01 {
+    background-color: blueviolet;
+}
+.box02 {
+    background-color: cornflowerblue;
+}
+.box03 {
+    background-color: crimson;
+}
+.box04 {
+    background-color: darkcyan;
+}
