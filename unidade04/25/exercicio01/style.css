@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-bottom: 5px solid #f1c40f;
+}
+header h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+header nav {
+    background-color: #34495e;
+    min-height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+header nav ul li a:hover {
+    color: #f1c40f;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f1c40f;
+}
+main {
+    background-color: #ecf0f1;
+    height: 100vh;
+    display: flex;
+}
+main section {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 20px;
+    width: 80%;
+}
+main section article {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border-left: 5px solid #16a085;
+}
+main section article h1 {
+    color: #16a085;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}   
+main section article p {
+    color: #333;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+main aside {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    width: 20%;
+}
+main aside p, main aside ul {
+    color: #000;
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+main aside ul {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+main aside ul li {
+    padding-bottom: 5px;
+    line-height: 1.4;
+}
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    border-top: 5px solid #f1c40f;
+    text-align: center;
+    padding: 20px;
+    min-height: 80px;
+}
+footer p {
+    font-weight: 600;
+    color:#ecf0f1;
+}
+footer p span {
+    font-weight: 700;
+}
+footer p a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: 600;
+}   
