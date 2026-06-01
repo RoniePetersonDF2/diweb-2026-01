@@ -1,7 +1,7 @@
 # Unidade 04
 ## Atividades, exemplos e exercícios da unidade.
 ## Descrição
-### Layout responsivo e técnicas aplicadas ao CSS.
+### CSS intermediário. Posicionamento, frameworks e outras propriedades CSS. 
 ### Aulas
-* [30 - Aula 30.](./30)
+* [25 - Arquivos externos, fontes externas e variáveis CSS.](./25)
 
