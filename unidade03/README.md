@@ -8,3 +8,4 @@
 * [20 - Trabalhando com cores e seus tipos. Outras unidades de medidas CSS. Propriedade background para imagens.](./20)
 * [21 - Trabalhando com tabelas e suas propriedades. Tabelas semânticas. E estilização em CSS.](./21)
 * [22 - Continuando com tabelas e seus diversos conteúdos. Modelo Flexbox e suas propriedades.](./22)
+* [23 - Continuando com modelo Flexbox. Propriedades do container e dos itens. Criando layouts responsivos e flexiveis.](./23)
