@@ -1,0 +1,21 @@
+
+@media(max-width: 480px) {
+    nav, aside {
+        display: none;
+    }
+    section {
+        width: 100%;
+    }
+}
+
+@media(min-width: 481px) and (max-width: 768px) {
+    aside {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+    section {
+        width: 100%;
+    }
+}

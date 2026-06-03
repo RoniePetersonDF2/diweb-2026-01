@@ -1,0 +1,45 @@
+
+@media(max-width: 480px) {
+    main {
+        background-color: var(--celular-color);
+    }
+    .celular {
+        display: block;
+    }
+    .desktop, .notebook, .tablet {
+        display: none;
+    }
+}
+@media(min-width: 481px) and (max-width: 768px) {
+    main {
+        background-color: var(--tablet-color);
+    }
+    .tablet {
+        display: block;
+    }
+    .desktop, .notebook, .celular {
+        display: none;
+    }
+}
+@media(min-width: 769px) and (max-width: 1279px) {
+    main {
+        background-color: var(--notebook-color);
+    }
+    .notebook {
+        display: block;
+    }
+    .desktop, .tablet, .celular {
+        display: none;
+    }
+}
+@media(min-width: 1280px) {
+    main {
+        background-color: var(--desktop-color);
+    }
+    .desktop {
+        display: block;
+    }
+    .notebook, .table, .celular {
+        display: none;
+    }
+}
