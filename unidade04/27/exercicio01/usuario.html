@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aula 27 - Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- CONTAINER: Centraliza e limita a largura do conteúdo (Regra 1 do Grid) -->
+    <div class="container mt-5">
+      <h1 class="text-center mb-5 title-custom">
+        Sistema de Usuários
+      </h1>
+
+      <!-- LINHA: Usada para organizar seções lado a lado (Regra 2 do Grid) -->
+      <div class="row">
+        <!-- COLUNA: Ocupa 100% no celular (col-12), mas 40% no desktop (col-lg-5) -->
+        <div class="col-12 mb-5">
+          <!-- ===== SEÇÃO 1: FORMULÁRIO DE CADASTRO ===== -->
+          <div class="card shadow-sm border-0">
+            <div class="card-header bg-primary text-white">
+              <h4 class="mb-0">Cadastrar Novo Usuário</h4>
+            </div>
+            <div class="card-body">
+              <form>
+                <!-- Campo Nome -->
+                <div class="mb-3">
+                  <label for="inputNome" class="form-label"
+                    >Nome Completo</label
+                  >
+                  <!-- form-control: Classe que dá o estilo Bootstrap ao input -->
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputNome"
+                    placeholder="Ex: Maria da Silva"
+                    required
+                  />
+                </div>
+
+                <!-- Campo Email -->
+                <div class="mb-3">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="Ex: email@dominio.com"
+                    required
+                  />
+                </div>
+
+                <!-- Campo Cargo -->
+                <div class="mb-3">
+                  <label for="selectCargo" class="form-label">Cargo</label>
+                  <select class="form-select" id="selectCargo" required>
+                    <option selected disabled value="">Selecione...</option>
+                    <option>Desenvolvedor</option>
+                    <option>Analista</option>
+                    <option>Gerente</option>
+                  </select>
+                </div>
+
+                <!-- Botão de Cadastro -->
+                <!-- btn btn-success: Classe para um botão verde e com estilo Bootstrap -->
+                <button type="submit" class="btn btn-success w-100 mt-3">
+                  Cadastrar
+                </button>
+                <a href="index.html" class="btn btn-outline-dark w-100 mt-3">Voltar</a>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      <!-- Fim da Linha (row) -->
+    </div>
+    <!-- Fim do Container -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
